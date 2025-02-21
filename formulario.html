@@ -15,5 +15,114 @@
                 <input type="text" name="q">
                 <button type="submit"> buscar </button>
         </form>
+        <br>
+        <h1>
+            Datos
+        </h1>
+        <form action="#">
+            <label for="nom">Nombre</label>
+            <input 
+            id="nom"
+            type="text" 
+            name="nombre" 
+            placeholder="Ingrese su nombre"
+
+            />
+            <br>
+            <label >Apellido</label>
+            <input type="text"
+            name="Apellido"
+            value="Gomez"
+            disabled>
+            <div>
+                <label >Email</label>
+                <input type="email"
+                name="correo"
+                placeholder="example@com.com"
+                maxlength="60"
+                required>   
+            </div>
+            <div>
+                <label >Edad</label>
+                <input 
+                type="number"
+                name="edad"
+                value="18"
+                min="1"
+                max="120">
+            </div>
+            <fieldset>
+                <legend>Datos de la Ubre de la vaca</legend>
+                <label >fecah de matricula</label>
+                <input type="date" 
+                name="fechaMatricula">
+                <input type="date"  name="fechaMatricula">
+                <input type="datetime-local" name="fecha">
+            </fieldset>
+            <div>
+                <label >foto</label>
+                <input type="file" name="foto">
+            </div>
+            <div>
+                <label >color</label>
+                <input type="color" name="color">
+            </div>
+            <div>
+                <label >password</label>
+                <input type="password" name="password">
+            </div>
+            <div>
+                <label >clasificacion</label>
+                <label >
+                    <input type="radio" name="clasificacion" value="a">
+                    opcion 1
+                </label>
+                <label >
+                    <input type="radio" name="clasificacion" value="b" checked>
+                    opcion 2
+                </label>
+                <label >
+                    <input type="radio" name="clasificacion" value="c">
+                    opcion 3
+                </label>
+            </div>
+            <div>
+                <legend>jobs</legend>
+                <fieldset>
+                    <label>
+                        <input type="checkbox" name="opt1">
+                        opcion 1
+                    </label>
+                    <label>
+                        <input type="checkbox" name="opt2" checked>
+                        opcion 1
+                    </label>
+                    <label>
+                        <input type="checkbox" name="opt3">
+                        opcion 1
+                    </label>
+                </fieldset>
+            </div>
+            <div>
+                <label >Ciudad</label>
+                <select name="ciudad" >
+                    <option value="1">tunja</option>
+                    <option value="2">duitama</option>
+                    <option value="3" selected >sogamoso</option>
+                </select>
+            </div>
+            <div>
+                <label >
+                    <textarea name="obs" cols="25" rows="10">
+                        pepito
+                    </textarea>
+                </label>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+                <input type="submit" value="Enviar">
+                <button type="reset">reset</button>
+            </div>
+        </form>
     </body>
 </html>
