@@ -1,6 +1,6 @@
 <?php
 class Persona {
-    private $nombre;
+    private $nombre; // es un modificador de acceso
     private $apellido;
     private $edad;
     private $pasatiempos;
