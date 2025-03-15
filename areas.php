@@ -1,6 +1,6 @@
 <?php
-include 'oop.php';
-//require 'oop.php';
+include 'oop.php'; //da una advertencia si no lo encuentra y luego sigue ejecutando
+//require 'oop.php'; // este si no lo encuentra para la ejecucion 
 
 $arista = $_POST['arista'];
 $cuadrado = new Cuadrado();
